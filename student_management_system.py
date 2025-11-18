@@ -28,6 +28,7 @@ def add_student():
 
     print("Student added successfully!")
 
+
 # View all students
 def view_students():
     with open(FILE, "r") as f:
@@ -99,3 +100,4 @@ while True:
         break
     else:
         print("Invalid choice. Try again.")
+print("thank for registration")
